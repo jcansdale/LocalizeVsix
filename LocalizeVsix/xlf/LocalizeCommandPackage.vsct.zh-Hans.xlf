@@ -3,8 +3,8 @@
   <file datatype="xml" source-language="en" target-language="zh-Hans" original="../LocalizeCommandPackage.vsct">
     <body>
       <trans-unit id="LocalizeCommandId|ButtonText">
-        <source>Invoke LocalizeCommand</source>
-        <target state="new">Invoke LocalizeCommand</target>
+        <source>Invoke English LocalizeCommand</source>
+        <target state="new">Invoke simplified Chinese LocalizeCommand</target>
         <note />
       </trans-unit>
     </body>

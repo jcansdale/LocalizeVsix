@@ -56,7 +56,7 @@
         <Parent guid="guidLocalizeCommandPackageCmdSet" id="MyMenuGroup" />
         <Icon guid="guidImages" id="bmpPic1" />
         <Strings>
-          <ButtonText>Invoke LocalizeCommand</ButtonText>
+          <ButtonText>Invoke English LocalizeCommand</ButtonText>
         </Strings>
       </Button>
     </Buttons>

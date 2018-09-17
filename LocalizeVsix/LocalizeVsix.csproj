@@ -6,6 +6,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <UseCodebase>true</UseCodebase>
+    <XlfLanguages>fr;zh-Hans</XlfLanguages>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -62,32 +63,10 @@
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
-    <None Include="xlf\LocalizeCommandPackage.vsct.cs.xlf" />
-    <None Include="xlf\LocalizeCommandPackage.vsct.de.xlf" />
-    <None Include="xlf\LocalizeCommandPackage.vsct.es.xlf" />
     <None Include="xlf\LocalizeCommandPackage.vsct.fr.xlf" />
-    <None Include="xlf\LocalizeCommandPackage.vsct.it.xlf" />
-    <None Include="xlf\LocalizeCommandPackage.vsct.ja.xlf" />
-    <None Include="xlf\LocalizeCommandPackage.vsct.ko.xlf" />
-    <None Include="xlf\LocalizeCommandPackage.vsct.pl.xlf" />
-    <None Include="xlf\LocalizeCommandPackage.vsct.pt-BR.xlf" />
-    <None Include="xlf\LocalizeCommandPackage.vsct.ru.xlf" />
-    <None Include="xlf\LocalizeCommandPackage.vsct.tr.xlf" />
     <None Include="xlf\LocalizeCommandPackage.vsct.zh-Hans.xlf" />
-    <None Include="xlf\LocalizeCommandPackage.vsct.zh-Hant.xlf" />
-    <None Include="xlf\VSPackage.cs.xlf" />
-    <None Include="xlf\VSPackage.de.xlf" />
-    <None Include="xlf\VSPackage.es.xlf" />
     <None Include="xlf\VSPackage.fr.xlf" />
-    <None Include="xlf\VSPackage.it.xlf" />
-    <None Include="xlf\VSPackage.ja.xlf" />
-    <None Include="xlf\VSPackage.ko.xlf" />
-    <None Include="xlf\VSPackage.pl.xlf" />
-    <None Include="xlf\VSPackage.pt-BR.xlf" />
-    <None Include="xlf\VSPackage.ru.xlf" />
-    <None Include="xlf\VSPackage.tr.xlf" />
     <None Include="xlf\VSPackage.zh-Hans.xlf" />
-    <None Include="xlf\VSPackage.zh-Hant.xlf" />
   </ItemGroup>
   <ItemGroup>
     <VSCTCompile Include="LocalizeCommandPackage.vsct">
@@ -133,7 +112,6 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
   </Target>
-
   <!--
     This is a workaround for allowing neutral CTO resource produced from *.vsct to go in the main assembly.
     We move the neutral *.cto file to be categorized as WithCulture=true,Culture=en to prevent the tools from falsely reporting:
@@ -160,5 +138,4 @@
       </_ResourcesToMergeWithCTOWithCultureMetadata>
     </ItemGroup>
   </Target>
-  
 </Project>
