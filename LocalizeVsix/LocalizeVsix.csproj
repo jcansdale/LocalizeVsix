@@ -62,6 +62,32 @@
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
+    <None Include="xlf\LocalizeCommandPackage.vsct.cs.xlf" />
+    <None Include="xlf\LocalizeCommandPackage.vsct.de.xlf" />
+    <None Include="xlf\LocalizeCommandPackage.vsct.es.xlf" />
+    <None Include="xlf\LocalizeCommandPackage.vsct.fr.xlf" />
+    <None Include="xlf\LocalizeCommandPackage.vsct.it.xlf" />
+    <None Include="xlf\LocalizeCommandPackage.vsct.ja.xlf" />
+    <None Include="xlf\LocalizeCommandPackage.vsct.ko.xlf" />
+    <None Include="xlf\LocalizeCommandPackage.vsct.pl.xlf" />
+    <None Include="xlf\LocalizeCommandPackage.vsct.pt-BR.xlf" />
+    <None Include="xlf\LocalizeCommandPackage.vsct.ru.xlf" />
+    <None Include="xlf\LocalizeCommandPackage.vsct.tr.xlf" />
+    <None Include="xlf\LocalizeCommandPackage.vsct.zh-Hans.xlf" />
+    <None Include="xlf\LocalizeCommandPackage.vsct.zh-Hant.xlf" />
+    <None Include="xlf\VSPackage.cs.xlf" />
+    <None Include="xlf\VSPackage.de.xlf" />
+    <None Include="xlf\VSPackage.es.xlf" />
+    <None Include="xlf\VSPackage.fr.xlf" />
+    <None Include="xlf\VSPackage.it.xlf" />
+    <None Include="xlf\VSPackage.ja.xlf" />
+    <None Include="xlf\VSPackage.ko.xlf" />
+    <None Include="xlf\VSPackage.pl.xlf" />
+    <None Include="xlf\VSPackage.pt-BR.xlf" />
+    <None Include="xlf\VSPackage.ru.xlf" />
+    <None Include="xlf\VSPackage.tr.xlf" />
+    <None Include="xlf\VSPackage.zh-Hans.xlf" />
+    <None Include="xlf\VSPackage.zh-Hant.xlf" />
   </ItemGroup>
   <ItemGroup>
     <VSCTCompile Include="LocalizeCommandPackage.vsct">
